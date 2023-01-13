@@ -1,0 +1,656 @@
+2023-01-12 10:19:04 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:19:21 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:19:31 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:19:31 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:19:32 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:19:33 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/blogs/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:20:05 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:20:07 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:21:01 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:21:02 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:21:26 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:22:04 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:22:05 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:23:39 notice: Undefined property: UsersController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /users/
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+App\Controller\UsersController::beforeFilter() /var/www/html/cakePractice/src/Controller/UsersController.php, line 171
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:24:39 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:25:42 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:27:04 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:27:07 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:28:07 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+
+2023-01-12 10:28:08 notice: Undefined property: PagesController::$Authentication in /var/www/html/cakePractice/src/Controller/AppController.php on line 70
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\AppController::beforeFilter() /var/www/html/cakePractice/src/Controller/AppController.php, line 70
+Cake\Event\EventManager::_callListener() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 309
+Cake\Event\EventManager::dispatch() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakePractice/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakePractice/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakePractice/webroot/index.php, line 40
+

@@ -1,0 +1,57 @@
+2023-01-12 04:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 04:18:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 04:18:24 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 04:41:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 10:18:25 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 10:18:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 10:18:55 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 10:21:20 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 10:54:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 11:00:53 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 11:02:14 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 11:25:12 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:01:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:01:09 error: [Error] Class 'Router' not found in /var/www/html/jyoti/cakePractice/config/routes.php on line 75
+Stack Trace:
+- /var/www/html/jyoti/cakePractice/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/html/jyoti/cakePractice/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /var/www/html/jyoti/cakePractice/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /var/www/html/jyoti/cakePractice/bin/cake.php:12
+
+2023-01-12 13:01:34 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:01:34 error: [Error] Class 'Router' not found in /var/www/html/jyoti/config/routes.php on line 75
+Stack Trace:
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /var/www/html/jyoti/bin/cake.php:12
+
+2023-01-12 13:03:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:03:09 error: [Error] Class 'Router' not found in /var/www/html/jyoti/config/routes.php on line 75
+Stack Trace:
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /var/www/html/jyoti/bin/cake.php:12
+
+2023-01-12 13:04:25 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:55 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:34 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:34 error: [Error] Class 'Router' not found in /var/www/html/jyoti/config/routes.php on line 75
+Stack Trace:
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /var/www/html/jyoti/bin/cake.php:12
+
+2023-01-12 13:09:47 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:47 error: [Error] Class 'Router' not found in /var/www/html/jyoti/config/routes.php on line 75
+Stack Trace:
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /var/www/html/jyoti/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /var/www/html/jyoti/bin/cake.php:12
+
+2023-01-13 03:44:38 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:57:43 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 06:29:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
